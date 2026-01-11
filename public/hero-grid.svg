@@ -1,0 +1,53 @@
+<svg width="320" height="220" viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="220" rx="28" fill="url(#paint0_linear)" opacity="0.88"/>
+  <g clip-path="url(#clip0)">
+    <path d="M40 40H280" stroke="url(#paint1_linear)" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M40 80H280" stroke="url(#paint1_linear)" stroke-opacity="0.25" stroke-width="1.5"/>
+    <path d="M40 120H280" stroke="url(#paint1_linear)" stroke-opacity="0.2" stroke-width="1.5"/>
+    <path d="M40 160H280" stroke="url(#paint1_linear)" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M80 40V180" stroke="url(#paint2_linear)" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M120 40V180" stroke="url(#paint2_linear)" stroke-opacity="0.25" stroke-width="1.5"/>
+    <path d="M160 40V180" stroke="url(#paint2_linear)" stroke-opacity="0.2" stroke-width="1.5"/>
+    <path d="M200 40V180" stroke="url(#paint2_linear)" stroke-opacity="0.2" stroke-width="1.5"/>
+    <path d="M240 40V180" stroke="url(#paint2_linear)" stroke-opacity="0.15" stroke-width="1.5"/>
+  </g>
+  <g filter="url(#filter0_d)">
+    <rect x="102" y="74" width="116" height="68" rx="18" fill="url(#paint3_radial)" opacity="0.95"/>
+    <rect x="114" y="96" width="92" height="12" rx="6" fill="#101828" opacity="0.8"/>
+    <rect x="130" y="112" width="60" height="12" rx="6" fill="#101828" opacity="0.6"/>
+    <circle cx="124" cy="102" r="6" fill="#A6F0C6"/>
+    <circle cx="210" cy="146" r="28" fill="url(#paint4_radial)" opacity="0.85"/>
+  </g>
+  <defs>
+    <filter id="filter0_d" x="72" y="44" width="206" height="178" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="15"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="28" y1="16" x2="302" y2="204" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="40" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="0" y1="40" x2="0" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 108) scale(76 58)">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.6"/>
+    </radialGradient>
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 146) scale(28)">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip0">
+      <rect x="40" y="40" width="240" height="140" rx="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
